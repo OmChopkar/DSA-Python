@@ -177,7 +177,7 @@ print(c)
 #-----------------------------------------------------------------
 #INPUT="aabbbeeeffff"
 #OUTPUT=a2b3e3f4
-# name="aabbbbeeeeeffggg"
+# name="abbbbeeeeeffggg"
 # newname={}
 # for i in range(len(name)):
 #     key=name[i]

@@ -1,3 +1,9 @@
+'''
+Array: Multiple values in single variable; Homogeneous
+Collection of finite number of homo elements. 
+Homo elements means if defined as int -> accepts only int.
+stored in continuous memory location
+'''
 # #Find Biggest Number in Array
 # def findBiggestNumber(sampleArray):
 #     biggestNumber = sampleArray[0] #O(1)
@@ -18,15 +24,15 @@
 #         sum+=i  #O(1)
 #     for i in array: #O(n)
 #         product*=i #O(1)
-#     print("Sum: "+str(sum)+", Product="+str(product)) #O(1)
+#     print("Sum: "+str(sum)+", Product:"+str(product)) #O(1)
 
 # array=[1,2,3,4,5] #O(1)
 # fun(array) #O(1)
 # #totalComplexity: O(n)
 
 #----------------------------------------------------------------
-#ip = [1,2,3,4]
-#op = [24,12,8,6]
+# #ip = [1,2,3,4]
+# #op = [24,12,8,6]
 # ip = [1,2,3,4]
 # op = []
 # for i in range(len(ip)):

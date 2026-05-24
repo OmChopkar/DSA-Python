@@ -1,3 +1,19 @@
+'''
+Python Collections - list, tuple, set, dictionary
+
+List:
+-Order wise data
+-Heterogeneous data
+-Represented []
+-Duplicates values allowed
+-List by nature is growable
+-Mutable
+
+list	              tuple
+[]		            () optional
+mutable		        immutable
+req not fixed	    req fixed
+'''
 # myList=["Om","Ashish","Komal","Ankush",77,"Sandip",True,3.14,7]
 # print(myList)
 # print(type(myList))

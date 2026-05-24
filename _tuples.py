@@ -1,4 +1,3 @@
-#
 # mytuple=("Om","Ashish","Rahul","Komal","Sanndip",True,4.51,82,"Om")
 # print(type(mytuple))
 # print(mytuple[1])

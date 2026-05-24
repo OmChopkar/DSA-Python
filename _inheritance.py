@@ -64,5 +64,5 @@ class C(A,B):
         print("SUM")
 obj=C()
 obj.display()
-obj.add()
+obj.add() #calls the first method found
 obj.add()

@@ -1,0 +1,63 @@
+Applications of C C++ : Used mainly for system software
+
+Python 
+Dynamic? - No need to define datatype decided in runtime using interpreter.
+Is Python Object Oriented? - YES 
+Python Manager internally assigns datatype
+
+Library enriched
+PVM
+
+Application: AI, ML
+DSA? - Different ways of organizing data on computer, that can be used effectively.
+No program dependent
+
+-----------------------------------------------------------------------------------
+Algo steps- Correctness and Efficiency 
+
+Where to use DS? 
+- in the middle layer programming logic
+
+-----------------------------------------------------------------------------------
+
+Big O - complexity that is going to be less or equal to worst case
+Array size 50 -> started 0 to n-1 -> target not found or at last - > worst case
+Array size 50 -> started 0 to n-1 -> target middle - > avg case
+Array size 50 -> started 0 to n-1 -> target found first - > best case
+
+Big Omega - Complexity that is going to be at least more than the best case.
+Big Thetha - Between worst and best ie Average
+
+O(1) - Constant Time : Accesing a specific element directly
+array=[1,2,3,4,5]
+array[0]
+
+O(n) - Linear Time : Visiting each element (ie traversing) it takes linear time
+array=[1,2,3,4,5]
+for i in array:
+    print(i)
+
+O(log n) - Logarithmic Time : Finding element is sorted array (Binary Search) -> visits only some lements
+array=[1,2,3,4,5]
+for i in range(0,len(array),3):
+    print(i)
+
+O(n^2) - Quadratic Time : Loop inside a loop ; looking at every index in the array twice
+array=[1,2,3,4,5]
+for i in array:
+    for j in array:
+        print(i,j)
+
+O(2^n) - Exponential Time : Double recursion in fibonacci - WORST
+def fibonacci(n):
+    if n<=1:
+        return n
+    return fibonacci(n-1)+fibonacci(n-2)
+
+-------------------------------------------------------------------------------
+
+Garbage Collection: removing of unused memory
+GC -> Calls Destructor -> Deallocates memory -> GC
+Destructor deallocates memory
+
+-------------------------------------------------------------------------------

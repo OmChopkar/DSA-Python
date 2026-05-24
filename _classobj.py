@@ -1,3 +1,6 @@
+'''
+Class - collection of data members (variables = represent properties of class) and data methods (actions to perform)
+'''
 # class Name:
 #     age = 30
 #     def display(self):

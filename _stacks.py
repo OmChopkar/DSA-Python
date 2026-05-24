@@ -1,6 +1,7 @@
 ''''
 STACK: LIFO
 IRL: Search history always last searcj on top
+
 STACK IMPLEMENTATION
 1. List/Array
 2. Linked List

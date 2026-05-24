@@ -1,3 +1,13 @@
+'''
+Linear vs Binary
+Time Complexity
+Large data - use Linear Search
+
+Binary Search
+- Faster than Linear Search
+- Only works for sorted array
+- Array is divided, elements eliminated as whole; not one by one
+'''
 # a=[1,3,4,7,2]
 # target=int(input("Enter target value to search:"))
 # for i in range(len(a)):
